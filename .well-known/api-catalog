@@ -1,0 +1,64 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://wordpress.krivoshein.site/",
+      "item": [
+        {
+          "href": "https://wordpress.krivoshein.site/llms.txt",
+          "type": "text/markdown",
+          "title": "llms.txt"
+        },
+        {
+          "href": "https://wordpress.krivoshein.site/llms-full.txt",
+          "type": "text/markdown",
+          "title": "llms-full.txt"
+        },
+        {
+          "href": "https://wordpress.krivoshein.site/ai.txt",
+          "type": "text/plain",
+          "title": "ai.txt"
+        },
+        {
+          "href": "https://wordpress.krivoshein.site/agents.md",
+          "type": "text/markdown",
+          "title": "agents.md"
+        },
+        {
+          "href": "https://wordpress.krivoshein.site/openapi.json",
+          "type": "application/json",
+          "title": "OpenAPI"
+        },
+        {
+          "href": "https://wordpress.krivoshein.site/.well-known/agent.json",
+          "type": "application/json",
+          "title": "agent.json"
+        },
+        {
+          "href": "https://wordpress.krivoshein.site/sitemap.xml",
+          "type": "application/xml",
+          "title": "Sitemap"
+        },
+        {
+          "href": "https://t.me/DrSlon",
+          "type": "text/html",
+          "title": "Telegram"
+        },
+        {
+          "href": "https://max.ru/id770603253213_1_bot",
+          "type": "text/html",
+          "title": "MAX"
+        },
+        {
+          "href": "https://krivoshein.site/contacts/",
+          "type": "text/html",
+          "title": "Contact"
+        },
+        {
+          "href": "https://krivoshein.site/llms.txt",
+          "type": "text/markdown",
+          "title": "Ecosystem hub"
+        }
+      ]
+    }
+  ]
+}

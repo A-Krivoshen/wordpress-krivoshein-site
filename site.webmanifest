@@ -1,0 +1,22 @@
+{
+  "name": "WordPress | Кривошеин",
+  "short_name": "WordPress",
+  "description": "Доработка и техподдержка WordPress: обновления, бэкапы, безопасность, мелкие правки от 20 000 ₽/мес.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#5181fe",
+  "lang": "ru",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png?v=20260716",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/android-chrome-512x512.png?v=20260716",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="600" viewBox="0 0 960 600" role="img" aria-label="WordPress поддержка">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stop-color="#eef3fb"/><stop offset="100%" stop-color="#f7f9fc"/></linearGradient>
+  </defs>
+  <rect width="960" height="600" fill="url(#bg)"/>
+  <rect x="64" y="64" width="220" height="472" rx="16" fill="#172133"/>
+  <text x="92" y="120" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#fff">WP Admin</text>
+  <rect x="92" y="160" width="160" height="12" rx="4" fill="#315fe8"/>
+  <rect x="92" y="200" width="140" height="10" rx="4" fill="#3d4d6b"/>
+  <rect x="92" y="230" width="150" height="10" rx="4" fill="#3d4d6b"/>
+  <rect x="92" y="260" width="120" height="10" rx="4" fill="#3d4d6b"/>
+  <rect x="92" y="290" width="145" height="10" rx="4" fill="#3d4d6b"/>
+  <rect x="320" y="64" width="576" height="472" rx="16" fill="#fff" stroke="#d8e0ee"/>
+  <text x="360" y="120" font-family="system-ui,sans-serif" font-size="18" font-weight="700" fill="#172133">Ежемесячная поддержка</text>
+  <rect x="360" y="160" width="200" height="100" rx="14" fill="#eef3fb"/>
+  <text x="384" y="210" font-family="system-ui,sans-serif" font-size="28" font-weight="800" fill="#315fe8">20 000 ₽</text>
+  <text x="384" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#52627d">/ месяц</text>
+  <rect x="580" y="160" width="260" height="100" rx="14" fill="#eef3fb"/>
+  <text x="604" y="210" font-family="system-ui,sans-serif" font-size="16" font-weight="700" fill="#172133">Updates · backups</text>
+  <text x="604" y="240" font-family="system-ui,sans-serif" font-size="13" fill="#52627d">security · speed</text>
+  <rect x="360" y="300" width="480" height="14" rx="6" fill="#e8eef8"/>
+  <rect x="360" y="300" width="360" height="14" rx="6" fill="#315fe8"/>
+  <text x="360" y="360" font-family="system-ui,sans-serif" font-size="15" fill="#52627d">Обновления · бэкапы · мониторинг · мелкие правки</text>
+  <rect x="360" y="400" width="220" height="40" rx="12" fill="#315fe8"/>
+  <text x="392" y="426" font-family="system-ui,sans-serif" font-size="14" font-weight="700" fill="#fff">Подключить поддержку</text>
+</svg>

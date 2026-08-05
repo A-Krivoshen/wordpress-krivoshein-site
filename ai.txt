@@ -1,0 +1,13 @@
+# ai.txt — wordpress.krivoshein.site
+# Full: https://wordpress.krivoshein.site/llms.txt
+# Agents: https://wordpress.krivoshein.site/agents.md
+# OpenAPI: https://wordpress.krivoshein.site/openapi.json
+# agent.json: https://wordpress.krivoshein.site/.well-known/agent.json
+# Hub: https://krivoshein.site/llms.txt
+# Contacts: https://krivoshein.site/contacts/
+# Telegram: https://t.me/DrSlon
+# MAX: https://max.ru/id770603253213_1_bot
+# Rate: 2000 RUB/h · contract · non-cash · RU/EN
+# Service: Разработка, доработка, поддержка и DevOps для WordPress. От 20 000 ₽/мес.
+# Content-Signal: search=yes, ai-input=yes, ai-train=no, citationRequired=yes
+# Updated: 2026-08-05
