@@ -772,87 +772,21 @@
     </div>
   </div>
 
-  <div id="krv-cookie" class="krv-cookie" role="dialog" aria-label="Уведомление о cookies" hidden>
+    <div id="krv-cookie" class="krv-cookie" role="region" aria-label="Уведомление о cookies и аналитике" hidden>
     <p>
-      Мы используем cookies и обезличенную аналитику Яндекс&nbsp;Метрики для улучшения сайта.
-      Персональные данные через этот лендинг не собираем.
-      <a href="privacy.html">Политика конфиденциальности</a> · <a href="llms.txt">llms.txt</a>
+      Мы используем cookies, локальное хранилище, PWA-кэш и (после вашего согласия) Яндекс&nbsp;Метрику
+      (в т.ч. карта кликов и Вебвизор) для статистики и улучшения сайта.
+      Чат-помощник на сайте может отправлять текст диалога на наш сервер поддержки.
+      Поля «короткого брифа» не сохраняются на сервере лендинга — они подставляются в сообщение Telegram.
+      <a href="privacy.html">Политика конфиденциальности</a>
     </p>
     <div class="krv-cookie__actions">
-      <button type="button" class="krv-cookie__btn" id="krv-cookie-ok">Понятно</button>
+      <button type="button" class="krv-cookie__btn" id="krv-cookie-ok">Принимаю</button>
       <a class="krv-cookie__link" href="privacy.html">Подробнее</a>
     </div>
   </div>
 
-  <!-- Yandex.Metrika counter -->
-<!-- FOOTER -->
-  </main>
-
-  <section class="krv-qual-section" id="brief" aria-label="Короткий бриф">
-    <div id="krv-qual" class="krv-qual">
-      <h2>Короткий бриф</h2>
-      <p class="krv-qual__lead">Выберите задачу - открою Telegram с готовым текстом сообщения.</p>
-      <label for="krv-qual-need">Что нужно?</label>
-      <select id="krv-qual-need">
-            <option value="Разовая правка">Разовая правка</option>
-            <option value="Ежемесячная поддержка">Ежемесячная поддержка</option>
-            <option value="Ускорение / безопасность">Ускорение / безопасность</option>
-      </select>
-      <label for="krv-qual-note">Комментарий (необязательно)</label>
-      <input id="krv-qual-note" type="text" maxlength="200" placeholder="Срок, ссылка на сайт, бюджет - если есть" autocomplete="off">
-      <div class="krv-qual__actions">
-        <a class="krv-qual__btn" id="krv-qual-go" href="https://t.me/DrSlon" target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
-        <a class="krv-qual__btn krv-qual__btn--ghost" href="https://max.ru/id770603253213_1_bot" target="_blank" rel="noopener noreferrer">Или в MAX</a>
-      </div>
-    </div>
-  </section>
-
-  <footer class="border-t border-slate-200 py-8">
-    <div class="max-w-screen-xl mx-auto px-5">
-      <div class="flex flex-col md:flex-row items-center justify-between gap-y-4">
-        <div class="flex items-center gap-x-3">
-          <img src="logo.png?v=20260716" alt="Krivoshein" width="48" height="56" class="krv-logo krv-logo--footer" decoding="async">
-          <span class="text-sm text-slate-600">ИП Кривошеин Алексей Сергеевич</span>
-        </div>
-        <div class="text-sm text-slate-500 text-center md:text-right">
-          Работаю по договору • Безналичный расчёт
-        </div>
-      </div>
-      <nav class="mt-5 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-xs text-slate-400" aria-label="Другие услуги">
-        <a href="https://bots.krivoshein.site/" class="hover:text-krv transition-colors">Боты</a>
-        <span class="text-slate-300" aria-hidden="true">·</span>
-        <a href="https://vps.krivoshein.site/" class="hover:text-krv transition-colors">VPS</a>
-        <span class="text-slate-300" aria-hidden="true">·</span>
-        <a href="https://direct.krivoshein.site/" class="hover:text-krv transition-colors">Директ</a>
-        <span class="text-slate-300" aria-hidden="true">·</span>
-        <span class="text-slate-500">WordPress</span>
-        <span class="text-slate-300" aria-hidden="true">·</span>
-        <a href="https://ai-ready.krivoshein.site/" class="hover:text-krv transition-colors">AI-ready</a>
-      </nav>
-    <p class="krv-footer-legal">ИП Кривошеин А. С. · Работа по договору · Безнал и закрывающие · aleksey@krivoshein.site · <a href="privacy.html">Конфиденциальность</a></p>
-    </div>
-    <!-- ai:llms https://wordpress.krivoshein.site/llms.txt -->
-  </footer>
-
-  <!-- MOBILE CTA BAR -->
-  <div class="mobile-cta-bar" role="region" aria-label="Быстрая заявка">
-    <a class="cta-secondary" href="https://t.me/DrSlon" target="_blank" rel="noopener noreferrer">Telegram</a>
-    <a class="cta-primary" href="https://krivoshein.site/contacts/">Подключить поддержку</a>
-  </div>
-
-  <!-- Yandex.Metrika counter -->
-  <script type="text/javascript">
-    (function(m,e,t,r,i,k,a){
-      m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-      m[i].l=1*new Date();
-      for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-      k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-    })(window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js?id=110135020', 'ym');
-    ym(110135020, 'init', {ssr:true, webvisor:true, clickmap:true, accurateTrackBounce:true, trackLinks:true});
-  </script>
-  <noscript><div><img src="https://mc.yandex.ru/watch/110135020" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-  <!-- /Yandex.Metrika counter -->
-  <!-- KRV AI Assistant -->
+<!-- KRV AI Assistant -->
   <script src="https://support.krivoshein.site/widget/krv-assistant.js?v=20260730r" defer data-api="https://support.krivoshein.site/api/v1" data-side="right"></script>
 
 <script src="assets/cookie-pwa.js" defer></script>
