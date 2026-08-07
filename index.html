@@ -772,7 +772,61 @@
     </div>
   </div>
 
-        <div id="krv-cookie" class="krv-cookie" role="region" aria-label="Уведомление о cookies и аналитике" hidden>
+  </main>
+
+  <section class="krv-qual-section" id="brief" aria-label="Короткий бриф">
+    <div id="krv-qual" class="krv-qual">
+      <h2>Короткий бриф</h2>
+      <p class="krv-qual__lead">Выберите задачу - открою Telegram с готовым текстом сообщения.</p>
+      <label for="krv-qual-need">Что нужно?</label>
+      <select id="krv-qual-need">
+            <option value="Разовая правка">Разовая правка</option>
+            <option value="Ежемесячная поддержка">Ежемесячная поддержка</option>
+            <option value="Ускорение / безопасность">Ускорение / безопасность</option>
+      </select>
+      <label for="krv-qual-note">Комментарий (необязательно)</label>
+      <input id="krv-qual-note" type="text" maxlength="200" placeholder="Срок, ссылка на сайт, бюджет - если есть" autocomplete="off">
+      <div class="krv-qual__actions">
+        <a class="krv-qual__btn" id="krv-qual-go" href="https://t.me/DrSlon" target="_blank" rel="noopener noreferrer">Написать в Telegram</a>
+        <a class="krv-qual__btn krv-qual__btn--ghost" href="https://max.ru/id770603253213_1_bot" target="_blank" rel="noopener noreferrer">Или в MAX</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-t border-slate-200 py-8">
+    <div class="max-w-screen-xl mx-auto px-5">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-y-4">
+        <div class="flex items-center gap-x-3">
+          <img src="logo.png?v=20260716" alt="Krivoshein" width="48" height="56" class="krv-logo krv-logo--footer" decoding="async">
+          <span class="text-sm text-slate-600">ИП Кривошеин Алексей Сергеевич</span>
+        </div>
+        <div class="text-sm text-slate-500 text-center md:text-right">
+          Работаю по договору • Безналичный расчёт
+        </div>
+      </div>
+      <nav class="mt-5 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-xs text-slate-400" aria-label="Другие услуги">
+        <a href="https://bots.krivoshein.site/" class="hover:text-krv transition-colors">Боты</a>
+        <span class="text-slate-300" aria-hidden="true">·</span>
+        <a href="https://vps.krivoshein.site/" class="hover:text-krv transition-colors">VPS</a>
+        <span class="text-slate-300" aria-hidden="true">·</span>
+        <a href="https://direct.krivoshein.site/" class="hover:text-krv transition-colors">Директ</a>
+        <span class="text-slate-300" aria-hidden="true">·</span>
+        <span class="text-slate-500">WordPress</span>
+        <span class="text-slate-300" aria-hidden="true">·</span>
+        <a href="https://ai-ready.krivoshein.site/" class="hover:text-krv transition-colors">AI-ready</a>
+      </nav>
+    <p class="krv-footer-legal">ИП Кривошеин А. С. · Работа по договору · Безнал и закрывающие · aleksey@krivoshein.site · <a href="privacy.html">Конфиденциальность</a> · <a href="llms.txt">llms.txt</a></p>
+    </div>
+    <!-- ai:llms https://wordpress.krivoshein.site/llms.txt -->
+  </footer>
+
+  <!-- MOBILE CTA BAR -->
+  <div class="mobile-cta-bar" role="region" aria-label="Быстрая заявка">
+    <a class="cta-secondary" href="https://t.me/DrSlon" target="_blank" rel="noopener noreferrer">Telegram</a>
+    <a class="cta-primary" href="https://krivoshein.site/contacts/">Подключить поддержку</a>
+  </div>
+
+  <div id="krv-cookie" class="krv-cookie" role="region" aria-label="Уведомление о cookies и аналитике" hidden>
     <p>
       Сайт использует cookies, локальное хранилище и Яндекс&nbsp;Метрику (в т.ч. карту кликов и Вебвизор)
       для статистики посещаемости и улучшения сервиса. Оператор — ИП Кривошеин&nbsp;А.&nbsp;С. (РФ).
