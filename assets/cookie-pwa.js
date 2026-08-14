@@ -49,17 +49,24 @@
     } catch (e) {}
   }
 
-  function registerSW() {
-    if (!('serviceWorker' in navigator)) return;
-    window.addEventListener('load', function () {
-      var sw = (typeof krvUrl === 'function') ? krvUrl('sw.js') : '/sw.js';
-      navigator.serviceWorker.register(sw).catch(function () {});
+  function armMetrika() {
+    var fired = false;
+    function go() {
+      if (fired) return;
+      fired = true;
+      loadMetrika();
+      ["scroll", "pointerdown", "keydown", "touchstart"].forEach(function (ev) {
+        window.removeEventListener(ev, go, true);
+      });
+    }
+    ["scroll", "pointerdown", "keydown", "touchstart"].forEach(function (ev) {
+      window.addEventListener(ev, go, { capture: true, passive: true });
     });
+    setTimeout(go, 5000);
   }
 
-  // Метрика и SW — сразу (РФ, учёт посещаемости)
-  loadMetrika();
-  registerSW();
+  // Do not register the service worker on these landings.
+  armMetrika();
 
   if (ok) {
     hide();

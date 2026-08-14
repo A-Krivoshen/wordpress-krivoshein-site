@@ -2,6 +2,7 @@
 Owner: Aleksey Krivoshein / ИП Кривошеин Алексей Сергеевич
 Contact: aleksey@krivoshein.site
 Telegram: https://t.me/DrSlon
+MAX: https://krivoshein.site/max
 Site: https://wordpress.krivoshein.site/
 Hub: https://krivoshein.site/
 
