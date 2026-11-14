@@ -1220,5 +1220,6 @@
   "сайт работает": "site is live",
   "Nginx, PHP, Redis, бэкапы, безопасность, оптимизация.": "Nginx, PHP, Redis, backups, security, optimization.",
   "✓ Сайт, готовый к росту": "✓ Website ready to grow",
-  "Могу помочь перенести сайт на надёжный VPS и настроить сервер.": "I can help move the site to a reliable VPS and set up the server."
+  "Могу помочь перенести сайт на надёжный VPS и настроить сервер.": "I can help move the site to a reliable VPS and set up the server.",
+  "Подробнее о настройке сервера": "More about server setup"
 }
