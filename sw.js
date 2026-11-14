@@ -1,5 +1,5 @@
 /* PWA service worker — https://wordpress.krivoshein.site */
-var CACHE = 'krv-wordpress-price-20261114';
+var CACHE = 'krv-wordpress-talk-20261115';
 var PRECACHE = [
   '/',
   '/privacy.html',
